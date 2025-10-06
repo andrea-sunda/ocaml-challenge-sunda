@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/nand/META"
+  "_build/install/default/lib/nand/dune-package"
+  "_build/install/default/lib/nand/opam"
+]
+bin: [
+  "_build/install/default/bin/nand"
+]
