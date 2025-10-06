@@ -1,0 +1,16 @@
+# dune exec nand
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/ocaml/ocaml-repo/1/nand
+# Auto-detected concurrency: 3
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/andrea/.opam/alf/bin/ocamlc.opt -config > /tmp/dune_46a372_output

@@ -1,6 +1,6 @@
 let nand a b = (not(a && b));;
 
-print_bool nand true true;;
+nand true true;;
 nand true false;;
 nand false true;;
 nand false false;;
