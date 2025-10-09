@@ -1,0 +1,6 @@
+# dune init project absolute-value
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/ocaml/ocaml-repo/1/absolute-value
+# Auto-detected concurrency: 3
