@@ -1,0 +1,4 @@
+(executable
+ (public_name blood-donations)
+ (name main)
+ (libraries blood_donations))
