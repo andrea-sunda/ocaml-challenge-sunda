@@ -1,0 +1,4 @@
+(executable
+ (public_name maxnat)
+ (name main)
+ (libraries maxnat))
