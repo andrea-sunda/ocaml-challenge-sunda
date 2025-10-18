@@ -1,0 +1,4 @@
+(executable
+ (public_name movie-ratings)
+ (name main)
+ (libraries movie_ratings))
