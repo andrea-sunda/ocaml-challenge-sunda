@@ -1,0 +1,4 @@
+(executable
+ (public_name exam-committee)
+ (name main)
+ (libraries exam_committee))
