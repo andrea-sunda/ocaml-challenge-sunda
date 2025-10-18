@@ -1,0 +1,4 @@
+(executable
+ (public_name parrot-trouble)
+ (name main)
+ (libraries parrot_trouble))
