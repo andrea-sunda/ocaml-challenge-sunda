@@ -1,0 +1,4 @@
+(executable
+ (public_name squirrel-play)
+ (name main)
+ (libraries squirrel_play))
