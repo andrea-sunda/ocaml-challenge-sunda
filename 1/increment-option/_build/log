@@ -1,0 +1,6 @@
+# dune init project increment-option
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/ocaml/ocaml-repo/1/increment-option
+# Auto-detected concurrency: 3
