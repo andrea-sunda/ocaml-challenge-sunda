@@ -1,0 +1,6 @@
+# dune init project head-or-tail
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/repo-ocaml/1/head-or-tail
+# Auto-detected concurrency: 3
