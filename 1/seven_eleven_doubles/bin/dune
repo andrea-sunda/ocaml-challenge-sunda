@@ -1,0 +1,4 @@
+(executable
+ (public_name seven_eleven_doubles)
+ (name main)
+ (libraries seven_eleven_doubles))
