@@ -1,0 +1,2 @@
+(library
+ (name highest_card_wins))

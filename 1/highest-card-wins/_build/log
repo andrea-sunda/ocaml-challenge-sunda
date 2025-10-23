@@ -1,0 +1,6 @@
+# dune init project highest-card-wins
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/repo-ocaml/1/highest-card-wins
+# Auto-detected concurrency: 3

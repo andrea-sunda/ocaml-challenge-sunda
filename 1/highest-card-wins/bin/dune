@@ -1,0 +1,4 @@
+(executable
+ (public_name highest-card-wins)
+ (name main)
+ (libraries highest_card_wins))
