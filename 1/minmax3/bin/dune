@@ -1,0 +1,4 @@
+(executable
+ (public_name minmax3)
+ (name main)
+ (libraries minmax3))
