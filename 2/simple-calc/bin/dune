@@ -1,0 +1,4 @@
+(executable
+ (public_name simple-calc)
+ (name main)
+ (libraries simple_calc))

@@ -1,0 +1,6 @@
+# dune init project simple-calc
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/repo-ocaml/2/simple-calc
+# Auto-detected concurrency: 3
