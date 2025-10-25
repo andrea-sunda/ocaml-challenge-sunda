@@ -1,0 +1,4 @@
+(executable
+ (public_name compose)
+ (name main)
+ (libraries compose))
