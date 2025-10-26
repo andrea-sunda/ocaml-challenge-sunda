@@ -1,0 +1,6 @@
+# dune init project nested-tuples
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/repo-ocaml/2/nested-tuples
+# Auto-detected concurrency: 3
