@@ -1,0 +1,4 @@
+(executable
+ (public_name personal-data)
+ (name main)
+ (libraries personal_data))
