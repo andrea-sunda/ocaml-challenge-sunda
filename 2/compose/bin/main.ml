@@ -1,1 +1,1 @@
-let () = print_endline "Hello, World!"
+let comp f g x = f (g x);;
