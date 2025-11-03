@@ -1,0 +1,4 @@
+(executable
+ (public_name flip-curry)
+ (name main)
+ (libraries flip_curry))
