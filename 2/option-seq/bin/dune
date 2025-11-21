@@ -1,0 +1,4 @@
+(executable
+ (public_name option-seq)
+ (name main)
+ (libraries option_seq))
