@@ -2,10 +2,13 @@
 let is_positive x = x > 0;;
 let is_even x = x mod 2 = 0;;
 
-(* function to test *)
+(* first implementation of the function *)
 let both_true p q  x =
   (p x) && (q x)
 ;;
+(* second implementation *)
+let both_true p q = fun x -> p x && q x;;
+
 
 (* tests *)
 let is_positive_and_even = both_true is_positive is_even;;
