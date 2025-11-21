@@ -1,0 +1,4 @@
+(executable
+ (public_name eqboolbool)
+ (name main)
+ (libraries eqboolbool))
