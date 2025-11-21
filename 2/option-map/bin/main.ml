@@ -1,4 +1,3 @@
-(* definition of option_map *)
 let option_map f x =
   match x with
   | Some(a) -> Some(f a)
