@@ -1,0 +1,4 @@
+(executable
+ (public_name consensus3)
+ (name main)
+ (libraries consensus3))
