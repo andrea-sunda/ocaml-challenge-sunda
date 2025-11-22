@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/fractions/META"
+  "_build/install/default/lib/fractions/dune-package"
+  "_build/install/default/lib/fractions/opam"
+]
+bin: [
+  "_build/install/default/bin/fractions"
+]
+doc: [
+  "_build/install/default/doc/fractions/README.md"
+]
