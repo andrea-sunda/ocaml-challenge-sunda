@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/apply-if/META"
+  "_build/install/default/lib/apply-if/dune-package"
+  "_build/install/default/lib/apply-if/opam"
+]
+bin: [
+  "_build/install/default/bin/apply-if"
+]
+doc: [
+  "_build/install/default/doc/apply-if/README.md"
+]

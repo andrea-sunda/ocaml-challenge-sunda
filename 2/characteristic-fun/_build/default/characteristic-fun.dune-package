@@ -1,0 +1,7 @@
+(lang dune 3.20)
+(name characteristic-fun)
+(sections (lib .) (bin ../../bin) (doc ../../doc/characteristic-fun))
+(files
+ (lib (META dune-package opam))
+ (bin (characteristic-fun))
+ (doc (README.md)))

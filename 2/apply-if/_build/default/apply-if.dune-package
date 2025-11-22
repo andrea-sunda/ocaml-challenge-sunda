@@ -1,0 +1,4 @@
+(lang dune 3.20)
+(name apply-if)
+(sections (lib .) (bin ../../bin) (doc ../../doc/apply-if))
+(files (lib (META dune-package opam)) (bin (apply-if)) (doc (README.md)))

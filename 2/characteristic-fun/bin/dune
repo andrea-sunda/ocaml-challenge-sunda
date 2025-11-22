@@ -1,0 +1,4 @@
+(executable
+ (public_name characteristic-fun)
+ (name main)
+ (libraries characteristic_fun))

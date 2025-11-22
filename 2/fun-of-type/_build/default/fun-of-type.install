@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/fun-of-type/META"
+  "_build/install/default/lib/fun-of-type/dune-package"
+  "_build/install/default/lib/fun-of-type/opam"
+]
+bin: [
+  "_build/install/default/bin/fun-of-type"
+]
+doc: [
+  "_build/install/default/doc/fun-of-type/README.md"
+]

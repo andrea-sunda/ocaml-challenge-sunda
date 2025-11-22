@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/characteristic-fun/META"
+  "_build/install/default/lib/characteristic-fun/dune-package"
+  "_build/install/default/lib/characteristic-fun/opam"
+]
+bin: [
+  "_build/install/default/bin/characteristic-fun"
+]
+doc: [
+  "_build/install/default/doc/characteristic-fun/README.md"
+]
