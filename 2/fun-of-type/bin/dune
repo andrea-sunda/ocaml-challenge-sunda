@@ -1,0 +1,4 @@
+(executable
+ (public_name fun-of-type)
+ (name main)
+ (libraries fun_of_type))
