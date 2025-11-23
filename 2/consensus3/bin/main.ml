@@ -1,4 +1,4 @@
-let consensus3 (f0, f1, f2)n =
+let consensus3 (f0, f1, f2) n =
   match (f0 n, f1 n, f2 n) with
     | (a, b, c) when (a = b) -> Some(a)
     | (a, b, c) when (a = c) -> Some(a)
