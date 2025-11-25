@@ -1,0 +1,4 @@
+(executable
+ (public_name loaded-dice)
+ (name main)
+ (libraries loaded_dice))
