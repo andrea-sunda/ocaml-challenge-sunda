@@ -1,0 +1,4 @@
+(executable
+ (public_name sumrange)
+ (name main)
+ (libraries sumrange))

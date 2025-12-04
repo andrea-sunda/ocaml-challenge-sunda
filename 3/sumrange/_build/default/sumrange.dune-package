@@ -1,0 +1,4 @@
+(lang dune 3.20)
+(name sumrange)
+(sections (lib .) (bin ../../bin) (doc ../../doc/sumrange))
+(files (lib (META dune-package opam)) (bin (sumrange)) (doc (README.md)))

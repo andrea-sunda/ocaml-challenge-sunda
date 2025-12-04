@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/sumrange/META"
+  "_build/install/default/lib/sumrange/dune-package"
+  "_build/install/default/lib/sumrange/opam"
+]
+bin: [
+  "_build/install/default/bin/sumrange"
+]
+doc: [
+  "_build/install/default/doc/sumrange/README.md"
+]
