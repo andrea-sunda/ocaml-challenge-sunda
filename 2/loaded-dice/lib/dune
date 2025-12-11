@@ -1,0 +1,2 @@
+(library
+ (name loaded_dice))
