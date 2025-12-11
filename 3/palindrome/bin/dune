@@ -1,0 +1,4 @@
+(executable
+ (public_name palindrome)
+ (name main)
+ (libraries palindrome))
