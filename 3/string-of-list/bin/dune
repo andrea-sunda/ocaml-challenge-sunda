@@ -1,0 +1,4 @@
+(executable
+ (public_name string-of-list)
+ (name main)
+ (libraries string_of_list))
