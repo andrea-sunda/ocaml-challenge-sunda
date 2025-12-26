@@ -1,0 +1,4 @@
+(executable
+ (public_name compare-list)
+ (name main)
+ (libraries compare_list))
