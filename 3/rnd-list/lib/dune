@@ -1,0 +1,2 @@
+(library
+ (name rnd_list))
