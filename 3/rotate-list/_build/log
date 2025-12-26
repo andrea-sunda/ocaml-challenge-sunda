@@ -1,0 +1,6 @@
+# dune init project rotate-list
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/ocaml-challenge/3/rotate-list
+# Auto-detected concurrency: 3

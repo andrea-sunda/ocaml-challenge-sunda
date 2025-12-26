@@ -1,0 +1,4 @@
+(executable
+ (public_name rotate-list)
+ (name main)
+ (libraries rotate_list))
