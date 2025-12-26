@@ -1,0 +1,6 @@
+# dune init project consecutive-even
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/ocaml-challenge/3/consecutive-even
+# Auto-detected concurrency: 3

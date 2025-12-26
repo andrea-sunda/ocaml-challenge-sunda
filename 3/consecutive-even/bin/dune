@@ -1,0 +1,4 @@
+(executable
+ (public_name consecutive-even)
+ (name main)
+ (libraries consecutive_even))
