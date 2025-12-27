@@ -1,0 +1,40 @@
+(* Recursive solution  *)
+let rec rotate n lst =
+  match lst with
+  | [] -> lst
+  | _ when n <= 0 -> lst
+  | h :: t -> rotate (n-1) (t @ [h])
+;;
+
+(* List functions solution *)
+let rotate2 n lst =
+  let len = List.length lst in
+  if len = 0 
+  else
+    let get_nth i =
+      (* Calcoliamo l'indice traslato: posizione attuale + n *)
+      let shifted_index = i + n in
+      let index =
+        if shifted_index >= 0 then
+          shifted_index mod len
+        else
+          (len + (shifted_index mod len)) mod len
+      in
+      List.nth lst index
+    in
+    List.init len get_nth
+;;
+
+(* First asserts *)
+assert(rotate 0 [5;6;7;8] = [5;6;7;8]);;
+assert(rotate 1 [5;6;7;8] = [6;7;8;5]);;
+assert(rotate 2 [5;6;7;8] = [7;8;5;6]);;
+assert(rotate 3 [5;6;7;8] = [8;5;6;7]);;
+assert(rotate 4 [5;6;7;8] = [5;6;7;8]);;
+
+(* Second asserts *)
+assert(rotate2 0 [5;6;7;8] = [5;6;7;8]);;
+assert(rotate2 1 [5;6;7;8] = [6;7;8;5]);;
+assert(rotate2 2 [5;6;7;8] = [7;8;5;6]);;
+assert(rotate2 3 [5;6;7;8] = [8;5;6;7]);;
+assert(rotate2 4 [5;6;7;8] = [5;6;7;8]);;
