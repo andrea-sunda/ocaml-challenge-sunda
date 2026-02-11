@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/bounce/META"
+  "_build/install/default/lib/bounce/dune-package"
+  "_build/install/default/lib/bounce/opam"
+]
+bin: [
+  "_build/install/default/bin/bounce"
+]
+doc: [
+  "_build/install/default/doc/bounce/README.md"
+]
