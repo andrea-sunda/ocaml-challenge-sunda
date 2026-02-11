@@ -1,0 +1,4 @@
+(executable
+ (public_name enum-int)
+ (name main)
+ (libraries enum_int))

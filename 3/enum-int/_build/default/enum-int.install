@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/enum-int/META"
+  "_build/install/default/lib/enum-int/dune-package"
+  "_build/install/default/lib/enum-int/opam"
+]
+bin: [
+  "_build/install/default/bin/enum-int"
+]
+doc: [
+  "_build/install/default/doc/enum-int/README.md"
+]
