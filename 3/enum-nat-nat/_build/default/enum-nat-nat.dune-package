@@ -1,0 +1,4 @@
+(lang dune 3.20)
+(name enum-nat-nat)
+(sections (lib .) (bin ../../bin) (doc ../../doc/enum-nat-nat))
+(files (lib (META dune-package opam)) (bin (enum-nat-nat)) (doc (README.md)))

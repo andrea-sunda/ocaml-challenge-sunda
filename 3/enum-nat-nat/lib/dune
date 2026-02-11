@@ -1,0 +1,2 @@
+(library
+ (name enum_nat_nat))

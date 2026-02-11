@@ -1,0 +1,28 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/andrea/.cache/dune/db
+# Workspace root: /home/andrea/ocaml-challenge/3/enum-nat-nat
+# Auto-detected concurrency: 3
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/andrea/.opam/alf/bin/ocamlc.opt -config > /tmp/dune_6dd478_output
+# Promoting "_build/default/enum-nat-nat.opam" to "enum-nat-nat.opam"
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -bin-annot-occurrences -I lib/.enum_nat_nat.objs/byte -no-alias-deps -opaque -o lib/.enum_nat_nat.objs/byte/enum_nat_nat.cmo -c -impl lib/enum_nat_nat.ml-gen)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I test/.test_enum_nat_nat.eobjs/byte -no-alias-deps -opaque -o test/.test_enum_nat_nat.eobjs/byte/dune__exe__Test_enum_nat_nat.cmi -c -intf test/test_enum_nat_nat.mli)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/enum_nat_nat.cma lib/.enum_nat_nat.objs/byte/enum_nat_nat.cmo)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I bin/.main.eobjs/byte -I lib/.enum_nat_nat.objs/byte -no-alias-deps -opaque -o bin/.main.eobjs/byte/dune__exe__Main.cmi -c -intf bin/main.mli)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I lib/.enum_nat_nat.objs/byte -I lib/.enum_nat_nat.objs/native -cmi-file lib/.enum_nat_nat.objs/byte/enum_nat_nat.cmi -no-alias-deps -opaque -o lib/.enum_nat_nat.objs/native/enum_nat_nat.cmx -c -impl lib/enum_nat_nat.ml-gen)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.enum_nat_nat.objs/byte -I lib/.enum_nat_nat.objs/native -cmi-file bin/.main.eobjs/byte/dune__exe__Main.cmi -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/enum_nat_nat.cmxa lib/.enum_nat_nat.objs/native/enum_nat_nat.cmx)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/.test_enum_nat_nat.eobjs/byte -I test/.test_enum_nat_nat.eobjs/native -cmi-file test/.test_enum_nat_nat.eobjs/byte/dune__exe__Test_enum_nat_nat.cmi -no-alias-deps -opaque -o test/.test_enum_nat_nat.eobjs/native/dune__exe__Test_enum_nat_nat.cmx -c -impl test/test_enum_nat_nat.ml)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -shared -linkall -I lib -o lib/enum_nat_nat.cmxs lib/enum_nat_nat.cmxa)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/enum_nat_nat.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
+$ (cd _build/default && /home/andrea/.opam/alf/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/test_enum_nat_nat.exe test/.test_enum_nat_nat.eobjs/native/dune__exe__Test_enum_nat_nat.cmx)

@@ -1,0 +1,4 @@
+(executable
+ (public_name enum-nat-nat)
+ (name main)
+ (libraries enum_nat_nat))

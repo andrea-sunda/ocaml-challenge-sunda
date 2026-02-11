@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/enum-nat-nat/META"
+  "_build/install/default/lib/enum-nat-nat/dune-package"
+  "_build/install/default/lib/enum-nat-nat/opam"
+]
+bin: [
+  "_build/install/default/bin/enum-nat-nat"
+]
+doc: [
+  "_build/install/default/doc/enum-nat-nat/README.md"
+]
