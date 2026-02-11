@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/peano/META"
+  "_build/install/default/lib/peano/dune-package"
+  "_build/install/default/lib/peano/opam"
+]
+bin: [
+  "_build/install/default/bin/peano"
+]
+doc: [
+  "_build/install/default/doc/peano/README.md"
+]
