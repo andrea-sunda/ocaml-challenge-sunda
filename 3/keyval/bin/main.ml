@@ -13,10 +13,12 @@ assert(apply f0 2 = Some 3);;
 
 (* Second part *)
 let mkfun lst =
-  match lst with
-  | [] -> []
-  | (h1, h2) :: t ->
-  [(h1,h2)] @ (List.filter (function (x, y) -> x <> h1) t)
+  let result = 
+    List.fold_left (fun acc -> fun n ->
+      if List.exists (fun (x,y) -> x = (fst n)) acc then acc
+      else n :: acc) [] lst
+    in
+  List.rev result
 ;;
 
 (* Asserts *)
