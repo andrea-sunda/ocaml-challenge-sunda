@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/euclid-gcd/META"
+  "_build/install/default/lib/euclid-gcd/dune-package"
+  "_build/install/default/lib/euclid-gcd/opam"
+]
+bin: [
+  "_build/install/default/bin/euclid-gcd"
+]
+doc: [
+  "_build/install/default/doc/euclid-gcd/README.md"
+]

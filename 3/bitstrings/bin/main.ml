@@ -62,7 +62,9 @@ let rec prefix str1 str2 =
 ;;
 
 let rec substring s1 s2 =
-  prefix s1 s2 || (match s2 with
-                   | E -> false
-                   | Z s | U s -> substring s1 s)
+  prefix s1 s2 || 
+  (match s2 with
+    | E -> false
+    | Z s 
+    | U s -> substring s1 s)
 ;;

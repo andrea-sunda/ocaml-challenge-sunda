@@ -1,0 +1,4 @@
+(executable
+ (public_name euclid-gcd)
+ (name main)
+ (libraries euclid_gcd))
