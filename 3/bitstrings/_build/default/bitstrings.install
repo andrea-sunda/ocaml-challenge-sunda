@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/bitstrings/META"
+  "_build/install/default/lib/bitstrings/dune-package"
+  "_build/install/default/lib/bitstrings/opam"
+]
+bin: [
+  "_build/install/default/bin/bitstrings"
+]
+doc: [
+  "_build/install/default/doc/bitstrings/README.md"
+]
