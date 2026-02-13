@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/set/META"
+  "_build/install/default/lib/set/dune-package"
+  "_build/install/default/lib/set/opam"
+]
+bin: [
+  "_build/install/default/bin/set"
+]
+doc: [
+  "_build/install/default/doc/set/README.md"
+]

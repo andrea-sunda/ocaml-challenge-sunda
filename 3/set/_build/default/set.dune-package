@@ -1,0 +1,4 @@
+(lang dune 3.20)
+(name set)
+(sections (lib .) (bin ../../bin) (doc ../../doc/set))
+(files (lib (META dune-package opam)) (bin (set)) (doc (README.md)))
