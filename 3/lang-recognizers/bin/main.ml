@@ -54,7 +54,7 @@ let l4 lst =
   count_zeros_ones 0 0 lst
 ;;
 
-let l4 lst =
+let l5 lst =
   let rec count_zeros_ones zeros ones = function
     | [] -> zeros = ones
     | 0 :: t -> count_zeros_ones (zeros+1) ones t

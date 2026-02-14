@@ -52,6 +52,7 @@ assert(dup [1;1]);;
 assert(dup [1;3;5] = false);;
 assert(dup [1;3;5;3]);;
 
+(* mkset l removes the duplicates from the list l, making is a set *)
 let rec mkset = function
   | [] -> []
   | h :: t ->
@@ -62,3 +63,61 @@ let rec mkset = function
 assert(seteq (mkset [1;2;3;2;1]) [1;2;3]);;
 assert(seteq (mkset [1;2;1;2;1]) [1;2]);;
 assert(seteq (mkset [1;2;3]) [2;3;1]);;
+
+(* The following functions compute the union, intersection and difference of two sets *)
+let union lst1 lst2 =
+  mkset (lst1 @ lst2)
+;;
+
+let rec inter lst1 = function
+  | [] -> []
+  | h :: t -> 
+    if mem h lst1 then h :: inter lst1 t
+    else inter lst1 t
+;;
+
+let rec diff lst1 lst2 =
+  match lst1 with
+  | [] -> []
+  | h :: t -> 
+      if mem h lst2 then diff t lst2
+      else h :: diff t lst2
+;;
+
+assert(seteq (union [1;2;3] []) [1;2;3]);;
+assert(seteq (union [] [2;3;4]) [2;3;4]);;
+assert(seteq (union [1;2;3] [2;3;4]) [1;2;3;4]);;
+assert(seteq (inter [1;2;3] []) []);;
+assert(seteq (inter [] [2;3;4]) []);;
+assert(seteq (inter [1;2;3] [2;3;4]) [2;3]);;
+assert(seteq (diff [1;2;3] []) [1;2;3]);;
+assert(seteq (diff [] [2;3;4]) []);;
+assert(seteq (diff [1;2;3] [2;3;4]) [1]);;
+assert(seteq (diff [1;2;3] [3;1]) [2]);;
+
+(* dsum xl yl computes the disjoint union between xl and yl *)
+let dsum lst1 lst2 =
+  let rec mktuple n = function
+    | [] -> []
+    | h :: t -> (n, h) :: mktuple n t
+  in
+  mktuple 0 lst1 @ mktuple 1 lst2
+;;
+
+assert(seteq (dsum [1;2;3] []) [(0,1);(0,2);(0,3)]);;
+assert(seteq (dsum [] [2;3;4]) [(1,2);(1,3);(1,4)]);;
+assert(seteq (dsum [1;2] [2;3]) [(0,1);(0,2);(1,2);(1,3)]);;
+
+(* powset xl computes the set of all subsets of xl *)
+let rec powset = function
+  | [] -> [[]]
+  | h :: t ->
+      let rest = powset t in
+      let with_h = List.map (fun subset -> h :: subset) rest in
+      rest @ with_h
+;;
+assert (powset [] = [[]]);;
+assert (seteq (powset [1]) [[];[1]]);;
+assert (List.length (powset [1;2]) = 4);;
+assert (List.length (powset [1;2;3]) = 8);;
+assert (List.length (powset [1;2;3;4]) = 16);;
