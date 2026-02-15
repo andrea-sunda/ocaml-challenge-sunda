@@ -1,0 +1,4 @@
+(lang dune 3.20)
+(name extract)
+(sections (lib .) (bin ../../bin) (doc ../../doc/extract))
+(files (lib (META dune-package opam)) (bin (extract)) (doc (README.md)))

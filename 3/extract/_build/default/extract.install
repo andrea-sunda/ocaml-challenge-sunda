@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/extract/META"
+  "_build/install/default/lib/extract/dune-package"
+  "_build/install/default/lib/extract/opam"
+]
+bin: [
+  "_build/install/default/bin/extract"
+]
+doc: [
+  "_build/install/default/doc/extract/README.md"
+]
