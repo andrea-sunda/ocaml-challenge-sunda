@@ -1,0 +1,4 @@
+(executable
+ (public_name alf-students)
+ (name main)
+ (libraries alf_students))
