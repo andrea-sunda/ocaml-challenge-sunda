@@ -1,0 +1,4 @@
+(executable
+ (public_name deck-of-cards)
+ (name main)
+ (libraries deck_of_cards))
