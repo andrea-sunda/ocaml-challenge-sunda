@@ -1,0 +1,4 @@
+(executable
+ (public_name mergesort)
+ (name main)
+ (libraries mergesort))
